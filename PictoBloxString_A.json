@@ -1,0 +1,35 @@
+{
+    "name": "PictoBloxString",
+    "blocks": [
+        {
+            "opcode": "indexOf",
+            "blockType": "",
+            "text": "",
+            "arguments": {
+                "STRING1": {
+                    "type": "string",
+                    "defaultValue": ""
+                },
+                "STRING2": {
+                    "type": "string",
+                    "defaultValue": ""
+                }
+            }
+        },
+        {
+            "opcode": "equal",
+            "blockType": "",
+            "text": "",
+            "arguments": {
+                "STRING1": {
+                    "type": "string",
+                    "defaultValue": ""
+                },
+                "STRING2": {
+                    "type": "string",
+                    "defaultValue": ""
+                }
+            }
+        }
+    ]
+}
