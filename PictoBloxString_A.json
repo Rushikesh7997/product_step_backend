@@ -1,35 +1,21 @@
 {
-    "name": "PictoBloxString_A",
-    "blocks": [
-        {
-            "opcode": "indexOf",
-            "blockType": "",
-            "text": "",
-            "arguments": {
-                "STRING1": {
-                    "type": "string",
-                    "defaultValue": ""
-                },
-                "STRING2": {
-                    "type": "string",
-                    "defaultValue": ""
+            "id": "PictoBloxString_A",
+            "name": " PictoBloxString_A",
+            "blocks": [
+                {
+                    "opcode": "myReporter",
+                    "blockType": "BlockType.REPORTER",
+                    "text": "letter [TEXT] of [TEXT]",
+                    "arguments": {
+                        "LETTER_NUM": {
+                            "type": "ArgumentType.STRING",
+                            "defaultValue": "1"
+                        },
+                        "TEXT": {
+                            "type": "ArgumentType.STRING",
+                            "defaultValue": "text"
+                        }
+                    }
                 }
-            }
-        },
-        {
-            "opcode": "equal",
-            "blockType": "",
-            "text": "",
-            "arguments": {
-                "STRING1": {
-                    "type": "string",
-                    "defaultValue": ""
-                },
-                "STRING2": {
-                    "type": "string",
-                    "defaultValue": ""
-                }
-            }
+            ]
         }
-    ]
-}

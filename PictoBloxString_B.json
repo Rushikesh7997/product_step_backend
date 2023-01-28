@@ -1,18 +1,19 @@
 {
+    "id": "PictoBloxString_B",
     "name": "PictoBloxString_B",
     "blocks": [
         {
-            "opcode": "indexOf",
-            "blockType": "",
-            "text": "",
+            "opcode": "myReporter",
+            "blockType": "BlockType.REPORTER",
+            "text": "letter [TEXT] of [TEXT]",
             "arguments": {
-                "STRING1": {
-                    "type": "string",
-                    "defaultValue": ""
+                "LETTER_NUM": {
+                    "type": "ArgumentType.STRING",
+                    "defaultValue": "1"
                 },
-                "STRING2": {
-                    "type": "string",
-                    "defaultValue": ""
+                "TEXT": {
+                    "type": "ArgumentType.STRING",
+                    "defaultValue": "text"
                 }
             }
         }
